@@ -1,0 +1,58 @@
+@font-face { 
+    font-family: 'BabyDoll'; 
+    src: url('BabyDoll.ttf') format('truetype'); 
+}
+
+body {
+    font-family: 'BabyDoll', sans-serif;
+    background-image: url("background.jpg");
+}
+
+
+h1 {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(240, 167, 192);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form*/
+    padding: 20px;
+    border: 2px solid #e280c4;
+    border-radius: 8px;
+    background-color: #f0bee1;
+}
+
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 0 auto;
+    border: 1px solid pink;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #fffdd0;
+    font-family: 'BabyDoll', sans-serif;
+    font-size: 1.4em;
+}
+
+#side_notes {
+    color: pink;
+    border: 1px solid pink;
+    background: #fffdd0;
+}
